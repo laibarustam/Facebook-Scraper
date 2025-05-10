@@ -23,11 +23,11 @@ try:
 
     # Log in to Facebook
     email = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="email"]')))
-    email.send_keys('03481540873')  # Replace with your Facebook email
+    email.send_keys('....')  # Replace with your Facebook email
     print("Entered email")
 
     password = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="pass"]')))
-    password.send_keys('Laibakhan48@')  # Replace with your Facebook password
+    password.send_keys('.....')  # Replace with your Facebook password
     print("Entered password")
 
     button = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.NAME, 'login')))
